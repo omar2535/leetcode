@@ -32,5 +32,8 @@
     <ClCompile Include="ReverseInteger.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="PaindromeNumber.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
