@@ -3,9 +3,8 @@ package com.orzentertainment;
 public class Main {
 
     public static void main(String[] args) {
-        Atoi atoi = new Atoi();
-        int myInt = atoi.myAtoi("+");
-        System.out.println(myInt);
+        PalindromeNumber pn = new PalindromeNumber();
+        System.out.println(pn.isPalindrome(1243993421));
     }
 
 }
