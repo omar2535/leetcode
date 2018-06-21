@@ -3,8 +3,10 @@ package com.orzentertainment;
 public class Main {
 
     public static void main(String[] args) {
-       Strstr str = new Strstr();
-        System.out.println(str.strStr("aaaaaa", "bba"));
+       SearchInsertPosition si = new SearchInsertPosition();
+       int[] arr = {1,3,5,6};
+       int target = 7;
+        System.out.println(si.searchInsert(arr, target));
     }
 
 }
