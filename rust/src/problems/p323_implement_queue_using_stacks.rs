@@ -1,3 +1,4 @@
+#[allow(dead_code)]
 struct MyQueue {
     myQueue: Vec<i32>
 }
